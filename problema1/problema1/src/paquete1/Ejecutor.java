@@ -1,18 +1,20 @@
 package paquete1;
 
-import paquete2.Calificaciones;
+import paquete2.Calificacion;
 
 public class Ejecutor {
 
     public static void main(String[] args) {
         // objeto 1
-        Calificaciones calificaciones1 = new Calificaciones();
+        Calificacion calificaciones1 = new Calificacion();
         calificaciones1.calcularPromedio();
         System.out.printf("%s\n", calificaciones1);
 
         // objeto 2 
-        Calificaciones calificaciones2 = new Calificaciones("Roberto Bustamante", 9.00, 8.50, 10.00);
+        Calificacion calificaciones2 = new Calificacion
+        ("Roberto Bustamante", 9.00, 8.50, 10.00);
         calificaciones2.calcularPromedio();
+        System.out.println("--------------------------------");
         System.out.printf("%s\n", calificaciones2);
 
     }

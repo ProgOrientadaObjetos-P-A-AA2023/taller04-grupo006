@@ -1,6 +1,6 @@
 package paquete2;
 
-public class Calificaciones {
+public class Calificacion {
 
     private String nombreEstudiante;
     private double calificacionMateria1;
@@ -8,14 +8,14 @@ public class Calificaciones {
     private double calificacionMateria3;
     private double promedioCalificaciones;
 
-    public Calificaciones() {
+    public Calificacion() {
         nombreEstudiante = "Oliver Saraguro";
         calificacionMateria1 = 8.80;
         calificacionMateria2 = 9.80;
         calificacionMateria3 = 9.00;
     }
 
-    public Calificaciones(String n, double nota1, double nota2, double nota3) {
+    public Calificacion(String n, double nota1, double nota2, double nota3) {
         nombreEstudiante = n;
         calificacionMateria1 = nota1;
         calificacionMateria2 = nota2;
@@ -72,7 +72,7 @@ public class Calificaciones {
                 + "Calificacion Materia 1: %.2f\n"
                 + "Calificacion Materia 2: %.2f\n"
                 + "Calificacion Materia 3: %.2f\n"
-                + "Promedio de Calificaciones: %.2f\n",
+                + "Promedio de Calificaciones: %.2f",
                 nombreEstudiante,
                 calificacionMateria1,
                 calificacionMateria2,
